@@ -1,0 +1,38 @@
+.Type_icon {
+  font-family: 'nintendo_ds_biosregular', sans-serif;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-transform: capitalize;
+  width: 108px;
+  font-size: 1.8rem;
+  line-height: 2;
+  padding: 3px 0;
+  border-radius: 4px;
+  border: 1px solid #5F5F5F;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+}
+
+.resultsBlock {
+ background-color: white;
+ border-radius: 24px;
+ width: auto;
+ padding: 24px;
+ padding-top: 12px;
+ min-height: 40vh;
+ height: auto;
+ margin-left: 5%;
+ margin-right: 5%;
+ box-shadow: 0px 18px 24px #888888;
+ margin-top: 5%;
+
+}
+
+@media only screen and (max-width: 876px) {
+  .results {
+    position: absolute !important;
+    z-index: -1 !important;
+  }
+}

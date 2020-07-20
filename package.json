@@ -1,14 +1,22 @@
 {
   "name": "pokemon_team_machine",
+  "homepage": "http://pokemonteammachine.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.13",
+    "@material-ui/lab": "^4.0.0-alpha.52",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "@trendmicro/react-sidenav": "^0.5.0",
+    "node-sass": "^4.14.1",
+    "pokedex-promise-v2": "^3.2.0",
     "react": "^16.13.1",
+    "react-autocomplete": "^1.8.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-search": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

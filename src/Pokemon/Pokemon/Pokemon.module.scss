@@ -1,0 +1,76 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@font-face {
+  font-family: 'nintendo_ds_biosregular';
+  src: url('nintendo-ds-bios-webfont.woff2') format('woff2'),
+       url('nintendo-ds-bios-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.PokemonListBlock {
+margin: auto;
+width: 100%;
+text-align: center;
+padding: 18px;
+padding-bottom: 6px;
+border: solid 2px black;
+border-radius: 8px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-flow: column;
+        flex-flow: column;
+background-color: #494949;
+color: white;
+font-family: 'nintendo_ds_biosregular', sans-serif;
+text-transform: capitalize;
+
+
+  p {
+    font-size: 0.8rem
+  }
+  .PokemonName {
+    font-size: 24px;
+  }
+  img {
+    padding: 0;
+    margin: 0;
+  }
+  .pokemon_type_block {
+    overflow: none;
+  }
+  .PokemonSprite {  
+    max-width: 100%;
+    margin-left: 0;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+}
+.types {
+  width: 100%;
+}
+.Type_icon {
+  font-family: 'nintendo_ds_biosregular', sans-serif;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-transform: capitalize;
+  width: 54px;
+  line-height: 1;
+  padding: 3px 0;
+  border-radius: 4px;
+  border: 1px solid #5F5F5F;
+}
+.big_pokemon_area {
+  min-height: 90px !important;
+}

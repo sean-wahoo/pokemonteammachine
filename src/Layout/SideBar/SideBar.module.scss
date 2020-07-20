@@ -1,0 +1,66 @@
+.SideBar {
+  z-index: 1000 !important;
+  padding-top: 10px;
+  float: left;
+  display: flex;
+  flex-flow: column;
+  padding-left: 1%;
+  padding-right: 1%;
+  min-height: 100vh;
+  height: 100vh;
+  background-color: #1A1A1A;
+  overflow-y: auto;
+  -webkit-min-device-pixel-ratio: 3.0
+}
+
+.Type_icon {
+  font-family: 'nintendo_ds_biosregular', sans-serif;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-transform: capitalize;
+  width: 108px;
+  font-size: 1.8rem;
+  line-height: 2;
+  padding: 3px 0;
+  border-radius: 4px;
+  border: 1px solid #5F5F5F;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+}
+
+
+.TestButton {
+  margin: 7%;
+  line-height: 3;
+  font-size: 24px;
+  width: auto;
+  border: 1px solid white;
+  background: #494949;
+  border-radius: 36px;
+  color: white;
+  font-weight: 600;
+  transition: .1s;
+
+  &:hover {
+    transition: .2s;
+    box-shadow: 0px 0px 14px white;
+    transform: scale(1, 1);
+
+    &:active {
+      transition: .05s;
+      transform: scale(0.98, 0.98)
+    }
+
+  }
+
+}
+
+@media only screen and (max-width: 876px) {
+  .SideBar {
+    transform: translateX(0%);
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+  }
+}
